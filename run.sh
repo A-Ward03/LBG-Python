@@ -19,6 +19,6 @@ docker build -t amward03/python-app .
 
 docker run -d -p 80:8080  --name LBG-Python amward03/python-app:latest
 
-xdg-open http://localhost:8080/index.html 
+start http://localhost:8080/index.html 
 
  echo "done"
