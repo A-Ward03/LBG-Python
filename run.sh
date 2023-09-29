@@ -1,4 +1,3 @@
-#! bin/bash
 ```
 This file is removing removing the container, removing the image then creating both
 ```
