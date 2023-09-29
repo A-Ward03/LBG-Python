@@ -17,7 +17,7 @@ docker rmi python-app
 
 docker build -t python-app .
 
-docker run -d -p 80:8080  --name LBG-Python amward03/python-app:latest
+docker run -d -p 80:8080  --name LBG-Python python-app:latest
 
 start http://localhost:80/index.html 
 
